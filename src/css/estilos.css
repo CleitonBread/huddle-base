@@ -1,0 +1,87 @@
+html {
+    font-family: "Poppins", sans-serif ;
+}
+
+body {
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+}
+
+.header img {
+    max-width: 15%;    
+    margin: 25px 30px;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .illustration {
+    margin: 15px 50px 0px ;
+}
+
+.main .informations .tittle {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.main .informations .complement {
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 5px;
+    margin-top: 22px;
+    color: #ffffff;
+}
+
+.main .informations .bnt-register {
+    position: relative;
+    font-weight: 500;
+    padding: 15px 65px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    top: 50px;
+    transition: 0.3s;
+}
+
+.main .informations a:hover {
+    color: #ffffff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer .social a .fa-facebook-f {
+    padding: 10px 13px;
+}
+
+.footer .social a i {
+    margin-left: 15px;
+    max-width: 250%;
+    border: solid 1px #ffffff  ;
+    border-radius: 100px;
+    padding: 10px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer .social a i:hover {
+    border: solid 1px hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%) ;
+}
+
