@@ -23,4 +23,4 @@ O layout se adapta a diferentes tamanhos de tela (desktop, tablet e mobile).
 Você pode clonar o projeto e abrir o arquivo `index.html` no navegador:
 
 ```bash
-git clone https://github.com/Cleiton-Rpao/huddle-base.git
+git clone https://github.com/CleitonBread/huddle-base.git
